@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div id="logo">
+      <img src="./pixlr-bg-result.png" alt="logo" id="nf-logo" />
+    </div>
+    <div id="form-section">
+      <p>
+        Thank you for signing up at Netflix. Please tell us more about yourself.
+      </p>
+
+      <form action="">
+        <input
+          type="text"
+          name="form-name"
+          id="form-name"
+          placeholder="Your name"
+          class="form-text"
+          required
+        />
+        <input
+          type="number"
+          name="form-age"
+          id="form-age"
+          placeholder="Your age"
+          min="10"
+          max="111"
+          class="form-text"
+          required
+        />
+        <input
+          type="email"
+          name="form-email"
+          id="form-email"
+          placeholder="Your email"
+          class="form-text"
+          required
+        />
+        <select name="form-content-type" id="form-content-type" required>
+          <option value="default" selected>Your preferred content type</option>
+          <option value="series">Series</option>
+          <option value="movies">Movies</option>
+          <option value="docu">Documentaries</option>
+        </select>
+        <select name="form-favorite-genres" id="form-genres" multiple required>
+          <option value="default" selected>Your favorite genres</option>
+          <option value="action">Action</option>
+          <option value="comedy">Comedy</option>
+          <option value="romance">Romance</option>
+        </select>
+        <select name="form-genders" id="form-genders" required>
+          >
+          <option value="default" selected>Your gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <textarea
+          name="feedback"
+          id="feedback"
+          placeholder="Your feedback"
+          rows="5"
+          required
+        ></textarea>
+        <button
+          id="form-submit"
+          onclick="window.location.href = 'https://www.netflix.com/tr/login';"
+        >
+          Giriş Yap
+        </button>
+      </form>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr /> 
+    <div class="container">
+      <br />
+      <h3>Sorularınız mı var? 0850-390-7444 numaralı telefonu arayın</h3>
+      <br />
+      <a id="sss" href="https://help.netflix.com/tr/node/412">SSS</a>
+      <a id="privacy" href="https://help.netflix.com/legal/privacy">Gizlilik</a>
+      <br><br>
+      <a id="help_center" href="https://help.netflix.com/tr/">Yardım Merkezi</a>
+      <a id="corp_info" href="https://help.netflix.com/legal/corpinfo">Kurumsal Bilgiler</a>
+      <a id="kullanım" href="https://help.netflix.com/legal/termsofuse">Kullanım Koşulları</a>
+      <br> <br>
+      
+    </div>
+  </body>
+</html>
